@@ -6,6 +6,10 @@
   font-family: "Poppins", sans-serif;
 }
 
+body {
+  background-color: rgb(0, 0, 0);
+}
+
 :root {
   --background: #000000;
   --color-text: #000000;
@@ -32,8 +36,8 @@ nav {
 }
 
 .navBarList {
-  width: 30%;
-  font-size: 12px;
+  width: 50%;
+  font-size: 15px;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
@@ -53,8 +57,7 @@ nav {
 }
 
 /* Hero */
-.conteinHero {
-}
+.conteinHero {}
 
 .conteinHero {
   width: 100%;
@@ -90,8 +93,8 @@ nav {
 
 .containBeneficios h2 {
   width: 300px;
-  color: antiquewhite;
-  background-color: #ac8a63;
+  color: white;
+  background-color: #1B4F59;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -143,6 +146,7 @@ nav {
   justify-content: space-evenly;
   flex-wrap: wrap;
   gap: 20px;
+
 }
 
 .card {
@@ -151,21 +155,22 @@ nav {
   flex-direction: column;
   align-items: center;
   gap: 10px;
-
 }
 
 .img__produc1 {
   width: 140px;
   border-radius: 8px;
   margin: 3px;
+  border: solid 2.5px black;
 }
 
 .productos__cafe {
   display: flex;
   width: 220px;
   height: 310px;
-  background-color: #DBDCDF;
-  border-radius: 20px;
+  background-color: #e6e8da;
+  border-radius: 10px;
+  border: solid 3px #f7bb55;
 }
 
 .productos__cafe,
@@ -176,7 +181,7 @@ nav {
 
 .productos__cafe:hover,
 .bg--card:hover {
-  transform: scale(1.02);
+  transform: scale(1.07);
   z-index: 2;
 }
 
@@ -222,6 +227,17 @@ h2 {
 .texto__nosotros--mobile p {
   color: #818288;
   margin-top: 25px;
+}
+
+button {
+  width: 150px;
+  height: 30px;
+  border-radius: 15px;
+  cursor: pointer;
+  background-color: #BDE038;
+  font-weight: 500;
+  font-size: 1em;
+  gap: 10px;
 }
 
 .button {
@@ -293,23 +309,23 @@ footer {
 }
 
 .containerContacto h2 {
+  width: 300px;
+  color: white;
+  background-color: #1B4F59;
   display: flex;
-  justify-content: center;
   flex-direction: column;
   align-items: center;
-  width: 250px;
-  color: white;
-  background-color: #6c3b04;
+  font-size: 2.5em;
   border-radius: 5px;
-  font-size: 2em;
 }
 
 .containerContacto__text {
-  width: 100%;
+  width: 80%;
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 40px;
+  color: #e6e8da;
 }
 
 .container__formulario {
@@ -359,4 +375,49 @@ footer {
   border-radius: 20px;
   padding: 10px;
   color: #000000;
+}
+
+.textDescripcion h2 {
+  width: 300px;
+  color: white;
+  background-color: #1B4F59;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 2.5em;
+  border-radius: 5px;
+}
+
+.textDescripcion {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  margin: 25px;
+}
+
+.Redes {
+  width: 40px;
+  height: 40px;
+  margin: 10px;
+
+}
+
+.containerTextRedes {
+  display: flex;
+}
+
+.containerRedes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 35px;
+}
+
+a {
+  text-decoration: none;
+  color: #e6e8da;
+  font-size: 22px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
